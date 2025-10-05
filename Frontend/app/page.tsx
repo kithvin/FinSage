@@ -51,7 +51,7 @@ export default function LandingPage() {
         <section className="container mx-auto px-4 py-20 md:py-32">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="mb-6 text-balance text-4xl font-bold tracking-tight md:text-6xl">
-              AI-Powered Wealth Management Made Simple
+              AI-Powered  Wealth Management Made Simple
             </h1>
             <p className="mb-8 text-pretty text-lg text-muted-foreground md:text-xl">
               Track your income, assets, liabilities, and credit cards in one place. Get personalized recommendations to
@@ -151,13 +151,15 @@ export default function LandingPage() {
   <div className="container mx-auto px-4">
     <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-2">
       {/* Left side - Brand Name */}
-      <div className="flex items-center gap-3">
-        <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-        <p className="text-lg font-bold text-foreground">FinSage</p>
+      <div className="flex items-center gap-2">
+        <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent">
+          <span className="text-lg font-bold text-accent-foreground">F</span>
+        </div>
+        <span className="text-xl font-bold">FinSage</span>
       </div>
 
       {/* Center - Tagline */}
-      <div className="text-sm text-muted-foreground text-center md:mr-3">
+      <div className="text-sm text-muted-foreground text-center flex-1">
         AI-Powered Smart Wealth Management
       </div>
 

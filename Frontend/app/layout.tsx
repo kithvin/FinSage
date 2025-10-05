@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "FinSage - AI Wealth Management",
   description: "Manage your finances with AI-powered insights",
   generator: "v0.app",
+  icons: {
+    icon: "/logo.svg", 
+  },
 }
 
 export default function RootLayout({
